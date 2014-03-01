@@ -8,29 +8,75 @@ show-seconds=false
 show-week-numbers=false
 time-format='custom'
 
+[org/gnome/desktop/interface]
+# iconos para los botones
+buttons-have-icons=true
 
-# [org/gnome/nautilus/preferences]
-# permisos avanzados para Nautilus
-# show-advanced-permissions=true
+[org/gnome/desktop/media-handling]
+# no abre la ventana de los dispositivos insertados
+automount-open=false
 
-# doble click para abrir archivos en Nautilus
-click-policy='double'
+[org/gnome/desktop/screensaver]
+# no bloquea el ordenador después de un tiempo de inactividad
+lock-enabled=false
+# no bloquea el ordenador después de una suspensión
+ubuntu-lock-on-suspend=false
 
-# mostrar los archivos ejecutables de texto
-executable-text-activation='display'
+[org/gnome/desktop/wm/keybindings]
+panel-run-dialog=['<Alt>F2']
 
+[org/gnome/desktop/wm/preferences]
+action-double-click-titlebar='toggle-shade'
+button-layout='menu:minimize,maximize,spacer,close'
+disable-workarounds=false
+num-workspaces=1
+theme='VitalinuxEdu'
+titlebar-font='Ubuntu Bold 10'
+visual-bell=false
+
+[org/gnome/gedit/plugins]
+# añadido el complemento para ordenar
+active-plugins=['zeitgeistplugin', 'time', 'spell', 'sort', 'modelines', 'filebrowser', 'docinfo']
+
+[org/gnome/gedit/plugins/filebrowser/nautilus]
+# activada la posibilidad de eliminar directamente
+enable-delete=true
+
+[org/gnome/gedit/preferences/editor]
+# gedit no hace copia de fondo mientras se edita
+create-backup-copy=false
+# muestra el número de cada línea
+display-line-numbers=true
 
 [org/gnome/nautilus/desktop]
 home-icon-name='Carpeta personal'
 home-icon-visible=true
 trash-icon-name='Papelera'
 trash-icon-visible=false
+# mostrar dispositivos en el escritorio
 volumes-visible=true
 
+[org/gnome/nautilus/icon-view]
+# nivel de ampliación de los iconos en 100%
+default-zoom-level='standard'
+# no mostrar etiquetas bajo los iconos
+labels-beside-icons=false
 
-[org/gnome/desktop/interface]
-# iconos para los botones
-buttons-have-icons=true
+# [org/gnome/nautilus/preferences]
+# no mostrar permisos avanzados para Nautilus
+show-advanced-permissions=false
+# mostrar elementos de todas las carpetas, no solo locales
+show-directory-item-counts='always'
+# muestra siempre vista previa de texto en el icono
+show-icon-text='always'
+# muestra siempre vista previa de imagen en el icono
+show-icon-thumbnails='always'
+
+# doble click para abrir archivos en Nautilus
+click-policy='double'
+
+# mostrar los archivos ejecutables de texto
+executable-text-activation='display'
 
 # iconos para los menús contextuales
 menus-have-icons=true
