@@ -1,17 +1,17 @@
-Source: edu-infyprim-settings
+Source: edu-childhood-desktop-settings
 Section: gnome
 Priority: extra
 Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: https://github.com/vitalinux-edu/edu-infyprim-settings
+Homepage: https://github.com/vitalinux-edu/edu-childhood-desktop-settings
 
-Package: edu-infyprim-settings
+Package: edu-childhood-desktop-settings
 Architecture: all
 Provides: vx-virtual-desktop-settings
 Conflicts: vx-virtual-desktop-settings
 Replaces: vx-virtual-desktop-settings
-Pre-Depends: vx-utils, vx-dconf-profile, edu-desktop-wallpapers, edu-desktop-theme, indicator-applet, gnome-search-tool
+Pre-Depends: vx-utils, vx-dconf-profile, edu-childhood-desktop-wallpapers, edu-childhood-desktop-theme, indicator-applet, gnome-search-tool, gnome-icon-theme-gartoon-redux
 Depends: ${misc:Depends}
 Recommends: gimp, gcompris
-Description: Gnome settings for Vitalinux Edu Infantil y Primaria branding.
+Description: Gnome settings for Vitalinux Edu Childhood branding.
