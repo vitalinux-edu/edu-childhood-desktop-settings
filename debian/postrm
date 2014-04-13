@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for edu-infyprim-settings
+# postrm script for edu-childhood-desktop-settings
 #
 # see: dh_installdeb(1)
 
