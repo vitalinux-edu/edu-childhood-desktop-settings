@@ -11,7 +11,7 @@ Architecture: all
 Provides: vx-virtual-desktop-settings
 Conflicts: vx-virtual-desktop-settings
 Replaces: vx-virtual-desktop-settings
-Pre-Depends: vx-utils, vx-dconf-profile, edu-childhood-desktop-wallpapers, edu-childhood-desktop-theme, indicator-applet, gnome-search-tool, gnome-icon-theme-gartoon-redux
+Pre-Depends: vx-utils, vx-dconf-profile, edu-childhood-desktop-wallpapers, edu-childhood-desktop-theme, indicator-applet, gnome-search-tool
 Depends: ${misc:Depends}
 Recommends: gimp, gcompris
 Description: Gnome settings for Vitalinux Edu Childhood branding.
