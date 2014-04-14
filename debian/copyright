@@ -1,5 +1,5 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: edu-infyprim-settings
+Upstream-Name: edu-childhood-desktop-settings
 
 Files: etc/* debian/*
 Copyright: 2014 Jose Antonio Chavarría <jachavar@gmail.com>
