@@ -91,12 +91,6 @@ toolkit-accessibility=true
 
 ubuntu-overlay-scrollbars=false
 
-
-[org/gnome/desktop/media-handling]
-# lanzar nautilus cuando se automonte algún dispositivo
-automount-open=true
-
-
 [org/gnome/desktop/wm/keybindings]
 panel-run-dialog=['<Alt>F2']
 
