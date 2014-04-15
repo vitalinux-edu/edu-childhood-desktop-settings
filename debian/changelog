@@ -1,3 +1,9 @@
+edu-childhood-desktop-settings (1.0-2) unstable; urgency=low
+
+  * Se añade una llamada a dconf update en el purge del paquete.
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Tue, 15 Apr 2014 14:10:21 +0200
+
 edu-childhood-desktop-settings (1.0-1) unstable; urgency=low
 
   * Versión inicial
