@@ -104,7 +104,7 @@ panel-run-dialog=['<Alt>F2']
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/pixmaps/edu-childhood-desktop-wallpapers/babytux.png'
+picture-uri='file:///usr/share/pixmaps/edu-childhood-desktop-wallpapers/babytux.jpg'
 primary-color='#68684b4b3333'
 
 
