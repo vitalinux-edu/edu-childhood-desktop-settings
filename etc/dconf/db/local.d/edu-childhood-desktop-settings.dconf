@@ -8,13 +8,15 @@ show-seconds=false
 show-week-numbers=false
 time-format='custom'
 
-
 [org/gnome/nautilus/preferences]
 # no mostrar permisos avanzados para Nautilus
 show-advanced-permissions=false
 
 # doble click para abrir archivos en Nautilus
 click-policy='double'
+
+# activada la posibilidad de eliminar directamente los archivos
+enable-delete=true
 
 # mostrar los archivos ejecutables de texto
 executable-text-activation='display'
@@ -28,11 +30,9 @@ show-icon-text='always'
 # muestra siempre vista previa de imagen en el icono
 show-icon-thumbnails='always'
 
-
 [org/gnome/desktop/media-handling]
 # no abre la ventana de los dispositivos insertados
 automount-open=false
-
 
 [org/gnome/desktop/screensaver]
 # no bloquea el ordenador después de un tiempo de inactividad
@@ -41,16 +41,9 @@ lock-enabled=false
 # no bloquea el ordenador después de una suspensión
 ubuntu-lock-on-suspend=false
 
-
 [org/gnome/gedit/plugins]
 # añadido el complemento para ordenar
 active-plugins=['zeitgeistplugin', 'time', 'spell', 'sort', 'modelines', 'filebrowser', 'docinfo']
-
-
-[org/gnome/gedit/plugins/filebrowser/nautilus]
-# activada la posibilidad de eliminar directamente
-enable-delete=true
-
 
 [org/gnome/gedit/preferences/editor]
 # gedit no hace copia de fondo mientras se edita
@@ -59,7 +52,7 @@ create-backup-copy=false
 display-line-numbers=true
 
 [org/gnome/nautilus/desktop]
-home-icon-name='Carpeta personal'
+home-icon-name='Mis archivos'
 home-icon-visible=true
 trash-icon-name='Papelera'
 trash-icon-visible=false
@@ -117,7 +110,7 @@ start-with-status-bar=true
 
 
 [org/gnome/gnome-panel/layout]
-object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11']
+object-id-list=['object-0-0', 'object-0-1', 'object-0-2', 'object-0-3', 'object-0-4', 'object-0-5', 'object-0-6', 'object-0-7', 'object-0-8', 'object-0-9', 'object-0-10', 'object-0-12', 'object-0-13', 'object-0-14', 'object-0-16', 'object-0-17', 'object-0-11', 'object-0-18', 'object-0-19']
 toplevel-id-list=['top-panel-0']
 
 [org/gnome/gnome-panel/layout/objects/object-0-0/instance-config]
@@ -218,7 +211,7 @@ location='/usr/share/applications/gcompris.desktop'
 
 [org/gnome/gnome-panel/layout/objects/object-0-7]
 object-iid='PanelInternalFactory::Launcher'
-pack-index=10
+pack-index=11
 pack-type='end'
 toplevel-id='top-panel-0'
 
@@ -237,6 +230,18 @@ location='/usr/share/applications/libreoffice-writer.desktop'
 [org/gnome/gnome-panel/layout/objects/object-0-9]
 object-iid='PanelInternalFactory::Launcher'
 pack-index=8
+pack-type='end'
+toplevel-id='top-panel-0'
+
+[org/gnome/gnome-panel/layout/objects/object-0-18]
+object-iid='PanelInternalFactory::Separator'
+pack-index=10
+pack-type='end'
+toplevel-id='top-panel-0'
+
+[org/gnome/gnome-panel/layout/objects/object-0-19]
+object-iid='PanelInternalFactory::Separator'
+pack-index=12
 pack-type='end'
 toplevel-id='top-panel-0'
 
